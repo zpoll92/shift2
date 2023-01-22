@@ -60,7 +60,7 @@ mix
 mix.copy('resources/css/loader.css', 'public/css')
 
 // ------------------------------------------------
-// If you are deploying on subdomain/subfolder. Uncomment below code before running 'yarn prod' or 'npm run production' command.
+// If you are deploying on subdomain/subfolder. Uncomment below code before running 'yarn prod' or 'npm run build' command.
 // Please Change below 'publicPath' and 'setResourceRoot' options as per your sub-directory path. We have kept our current live demo options which is deployed in sub-folder.
 // ------------------------------------------------
 
@@ -78,7 +78,7 @@ mix.copy('resources/css/loader.css', 'public/css')
  */
 
 // ------------------------------------------------
-// If you are deploying on subdomain/subfolder then comment out below code before running 'yarn prod' or 'npm run production' command.
+// If you are deploying on subdomain/subfolder then comment out below code before running 'yarn prod' or 'npm run build' command.
 // ------------------------------------------------
 
 mix.webpackConfig({
